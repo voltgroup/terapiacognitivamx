@@ -11,7 +11,7 @@
 	$to = 'sylviagtzc@outlook.com'; // Email submissions are sent to this email
 
 	// Create email	
-	$email_subject = "Solicitud de Paciente";
+	$email_subject = "Nueva Solicitud de Paciente";
 	$email_body = "You have received a new message. \n\n".
 				  "Name2: $name2 \nEmail2: $email2 \nMessage2: $message2 \n";
 	$headers = "MIME-Version: 1.0\r\nContent-type: text/plain; charset=UTF-8\r\n";	
